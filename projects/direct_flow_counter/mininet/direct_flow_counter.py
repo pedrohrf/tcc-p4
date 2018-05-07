@@ -75,6 +75,7 @@ def main():
         h = net.get('h%d' % (n + 1))
         h.describe()
 
+    net.intf('enp0s8',node=net.get('h1'))
     sleep(1)
     print "Ready !"
     CLI( net )

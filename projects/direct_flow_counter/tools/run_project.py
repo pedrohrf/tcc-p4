@@ -21,7 +21,7 @@ def run_mininet(project_name):
 			defaults.PROJECT_BUILD_NAME + project_name + ".json"
 		]
 	]
-	helpers.execute_commands(commands, path)
+	helpers.execute_command(commands, path)
 
 def run_project(project_name):
 	""
